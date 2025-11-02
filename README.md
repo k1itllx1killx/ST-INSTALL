@@ -35,11 +35,11 @@ termux-setup-storage`
 
 Clone this repository:
 `
-git clone https://github.com/k1itllx1killx/ST-INSTALLER `
+git clone https://github.com/k1itllx1killx/ST-INSTALL `
 
 # Move into the project folder:
 
-` cd ST-INSTALL `
+` cd ST-INSTALL && chmod +× * `
 
 # 1️⃣ Pre-installation Phase
 
@@ -65,7 +65,7 @@ ST-INSTALLER/
 # ⚠️ Notes
 •	If any package fails to install, check your Termux permissions:
  `termux-setup-storage`
-==============≈==============================================================≈===================
+==============≈==================================================================
 
  •	Do not run as root unless explicitly required.
  •	Scripts are optimized for Termux default paths.
