@@ -26,10 +26,10 @@ Before you start, make sure you have the following:
 
 Update your environment first:
 
-```bash
+**`
 pkg update && pkg upgrade -y
 pkg install python git -y
-termux-setup-storage
+termux-setup-storage`**
 
 # 🔧 Installation & Usage
 
