@@ -26,13 +26,60 @@ Before you start, make sure you have the following:
 
 Update your environment first:
 
-``
+`
 pkg update && pkg upgrade -y
 pkg install python git -y
-termux-setup-storage```
+termux-setup-storage`
 
-# 🔧 Installation & Usage
+## 🔧 Installation & Usage
 
 Clone this repository:
-```bash
-git clone https://github.com/k1itllx1killx/ST-INSTALLER
+`
+git clone https://github.com/k1itllx1killx/ST-INSTALLER `
+
+# Move into the project folder:
+
+` cd ST-INSTALL `
+
+# 1️⃣ Pre-installation Phase
+
+Run the preinstall.py script to verify and prepare your environment:
+
+`python3 preinstall.py`
+
+# 2️⃣ Main Installation
+
+Once pre-installation is complete, launch the main installer:
+`bash install.sh`
+or
+`./install.sh`
+
+# 🗂️ Project Structure
+
+ST-INSTALLER/
+│
+├── preinstall.py     # Prepares and checks environment
+├── install.sh        # Installs dependencies and tools
+└── README.md         # This file
+
+# ⚠️ Notes
+•	If any package fails to install, check your Termux permissions:
+ `termux-setup-storage`
+==============≈==============================================================≈===================
+
+ •	Do not run as root unless explicitly required.
+ •	Scripts are optimized for Termux default paths.
+
+⸻
+
+## 👤 Author
+
+GitHub: @k1itllx1killx￼
+Developed to automate setup environments for Termux power users.
+
+⸻
+
+# 🌟 Support & Contribution
+
+• Pull requests and improvements are welcome.
+• If you like this tool, give it a ⭐ on GitHub — it helps more than you think.
