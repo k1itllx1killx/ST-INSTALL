@@ -30,3 +30,9 @@ Update your environment first:
 pkg update && pkg upgrade -y
 pkg install python git -y
 termux-setup-storage
+
+# 🔧 Installation & Usage
+
+Clone this repository:
+```bash
+git clone https://github.com/k1itllx1killx/ST-INSTALLER
