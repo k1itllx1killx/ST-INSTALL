@@ -36,7 +36,7 @@ termux-setup-storage
 
 Clone this repository:
 ```bash
-bash git clone https://github.com/k1itllx1killx/ST-INSTALL
+git clone https://github.com/k1itllx1killx/ST-INSTALL
 ```
 
 # Move into the project folder:
