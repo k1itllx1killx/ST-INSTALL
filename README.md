@@ -68,8 +68,11 @@ or
 
 ST-INSTALLER/
 │
+
 ├── preinstall.py     # Prepares and checks environment
+
 ├── install.sh        # Installs dependencies and tools
+
 └── README.md         # This file
 
 # ⚠️ Notes
