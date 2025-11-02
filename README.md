@@ -27,7 +27,7 @@ Before you start, make sure you have the following:
 Update your environment first:
 
 ```bash
-echo "pkg update && pkg upgrade -y
+"pkg update && pkg upgrade -y
 pkg install python git -y
 termux-setup-storage"
 ```
@@ -36,13 +36,13 @@ termux-setup-storage"
 
 Clone this repository:
 ```
-echo "bash git clone https://github.com/k1itllx1killx/ST-INSTALL"
+"bash git clone https://github.com/k1itllx1killx/ST-INSTALL"
 ```
 
 # Move into the project folder:
 
 ```bash
-echo "cd ST-INSTALL && chmod +× *"
+"cd ST-INSTALL && chmod +× *"
 ```
 
 # 1️⃣ Pre-installation Phase
@@ -50,18 +50,18 @@ echo "cd ST-INSTALL && chmod +× *"
 Run the preinstall.py script to verify and prepare your environment:
 
 ```
-echo "python3 preinstall.py"
+"python3 preinstall.py"
 ```
 
 # 2️⃣ Main Installation
 
 Once pre-installation is complete, launch the main installer:
 ```
-echo "bash install.sh"
+"bash install.sh"
 ```
 or
 ```
-echo "./install.sh"
+"./install.sh"
 ```
 
 # 🗂️ Project Structure
