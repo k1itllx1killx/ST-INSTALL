@@ -66,7 +66,8 @@ or
 
 # 🗂️ Project Structure
 
-ST-INSTALLER/
+ST-INSTALL/
+
 │
 
 ├── preinstall.py     # Prepares and checks environment
