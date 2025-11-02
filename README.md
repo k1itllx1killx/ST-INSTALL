@@ -1,4 +1,4 @@
-# ⚙️ ST-INSTALLER
+# ⚙️ ST-INSTALL
 
 **ST-INSTALLER** is a powerful and automated dependency installer built for **Termux**.  
 It’s designed to streamline the setup of multiple packages and tools with just a few commands.  
@@ -26,32 +26,43 @@ Before you start, make sure you have the following:
 
 Update your environment first:
 
-`
-pkg update && pkg upgrade -y
+```bash
+echo "pkg update && pkg upgrade -y
 pkg install python git -y
-termux-setup-storage`
+termux-setup-storage"
+```
 
 ## 🔧 Installation & Usage
 
 Clone this repository:
-`git clone https://github.com/k1itllx1killx/ST-INSTALL `
+```
+echo "bash git clone https://github.com/k1itllx1killx/ST-INSTALL"
+```
 
 # Move into the project folder:
 
-` cd ST-INSTALL && chmod +× * `
+```bash
+echo "cd ST-INSTALL && chmod +× *"
+```
 
 # 1️⃣ Pre-installation Phase
 
 Run the preinstall.py script to verify and prepare your environment:
 
-`python3 preinstall.py`
+```
+echo "python3 preinstall.py"
+```
 
 # 2️⃣ Main Installation
 
 Once pre-installation is complete, launch the main installer:
-`bash install.sh`
+```
+echo "bash install.sh"
+```
 or
-`./install.sh`
+```
+echo "./install.sh"
+```
 
 # 🗂️ Project Structure
 
@@ -73,7 +84,7 @@ ST-INSTALLER/
 
 ## 👤 Author
 
-GitHub: @k1itllx1killx￼
+GitHub: `@k1itllx1killx`
 Developed to automate setup environments for Termux power users.
 
 ⸻
